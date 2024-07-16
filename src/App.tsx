@@ -35,7 +35,7 @@ const App =()=> {
 
   return (
     <>
-      <h1>OpenWeather - TSSR M2i</h1>
+      <h1>OpenWeather - Demo</h1>
       <div style={style.flex}>
         <WeatherForm city={city} searchCity={() => getWeatherByCity(city)} handleChange={handleChange} searchLocation={getWeatherByLocation} />
       </div>
